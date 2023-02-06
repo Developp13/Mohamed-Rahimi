@@ -1,0 +1,162 @@
+/* Barre de navigation */
+.main-navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 64px;
+    background-color: white;
+    box-shadow: 0px 3px 10px rgb(14, 14, 14);
+    z-index: 100;
+}
+
+.main-navbar .logo {
+    height: 50px;
+    margin: 7px 20px;
+}
+
+.main-navbar .links-container {
+    float: right;
+    margin: 0px 20px;
+    padding-left: 20px;
+    height: 64px;
+}
+
+.main-navbar .links-container li {
+    display: inline-flex;
+    margin: 0px;
+    padding: 7px 10px;
+    line-height: 50px;
+    
+}
+
+.main-navbar .links-container li:hover {
+    background-color: rgb(211, 106, 26);
+    cursor: pointer;
+}
+
+.main-navbar .links-container li a {
+    color: #151515;
+    text-decoration: none;
+}
+.main-navbar .links-container li a:hover{
+    color: #f0e9e9;
+    text-decoration: none;
+}li #burger{
+    width: 40px;
+    top: 0;
+}
+
+/*faire apparaître le menu burgeur*/
+@media screen and (min-width:1000px){
+    li #burger{
+        display: none;
+    }
+
+}
+/*faire disparaitre le menu écrit*/
+@media screen and (max-width:1000px){
+    li #mburgeur {
+        display:none ;
+    }
+    
+}
+
+/* 
+.main-navbar .links-container li:hover a {
+    color: white;
+} */
+
+
+
+
+
+
+
+
+
+/* Banniere */
+.header {
+    min-height: 700px;
+    background-image: url("web.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+header .header-content {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 20vh;
+}
+
+section .header-content h1,
+section .header-content {
+    text-align: center;
+    color: white;
+}
+
+section .header-content h1 {
+    font-size: 80px;
+}
+
+section .header-content cite {
+    font-style: italic;
+    font-size: 40px;
+}
+
+
+
+/*mes projets accueil*/
+.image {
+    float:right;
+    position: relative;
+    }
+
+
+
+/* pied de page*/
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid rgb(20, 19, 19);
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+ 
+ 
+  
+  .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:rgb(0, 0, 0);
+    margin-bottom:0;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
